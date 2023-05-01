@@ -40,7 +40,7 @@ export default function Example() {
                 color="blue-gray"
                 className="p-1 font-normal"
             >
-                <Link href="#" className="flex items-center">
+                <Link href="/AboutUs" className="flex items-center">
                     About Us
                 </Link>
             </Typography>
@@ -50,7 +50,7 @@ export default function Example() {
                 color="blue-gray"
                 className="p-1 font-normal"
             >
-                <Link href="#" className="flex items-center">
+                <Link href="/Blog" className="flex items-center">
                     Blog
                 </Link>
             </Typography>
@@ -60,7 +60,7 @@ export default function Example() {
                 color="blue-gray"
                 className="p-1 font-normal"
             >
-                <Link href="#" className="flex items-center">
+                <Link href="/ContactUs" className="flex items-center">
                     Contact Us
                 </Link>
             </Typography>
@@ -71,7 +71,7 @@ export default function Example() {
         <>
             <Navbar className="sticky inset-0 z-10 h-max max-w-full rounded-none py-2 px-4 lg:px-8 lg:py-4">
                 <div className="flex items-center justify-between text-blue-gray-900">
-                    <img className="h-16" src="https://icons.veryicon.com/png/o/culture/chinese-icon/plum-blossom.png" />
+                    <img className="h-16" src="https://icons.veryicon.com/png/o/culture/chinese-icon/plum-blossom.png" alt="japanweb" />
                     <div className="flex items-center gap-4">
                         <div className="mr-4 hidden lg:block">{navList}</div>
                         <Button
@@ -79,7 +79,7 @@ export default function Example() {
                             size="sm"
                             className="hidden lg:inline-block"
                         >
-                            <span>Buy Now</span>
+                            <Link href="https://wa.me/6285156951083">Chat Me</Link>
                         </Button>
                         <IconButton
                             variant="text"
@@ -123,7 +123,7 @@ export default function Example() {
                 <MobileNav open={openNav}>
                     {navList}
                     <Button variant="gradient" size="sm" fullWidth className="mb-2">
-                        <span>Buy Now</span>
+                        <Link href="https://wa.me/6285156951083">Chat Me</Link>
                     </Button>
                 </MobileNav>
             </Navbar>

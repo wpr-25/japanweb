@@ -68,10 +68,7 @@ export default function Example() {
               Japanese ceremonies and ceremonies, such as weddings, funerals, and ceremonies for teenagers who are approaching adulthood.
               Because the Hanakotoba culture is very strong in meaning, care needs to be taken in the flowers in every ceremony.
               This is to avoid misunderstandings from other parties.</p>
-            <div className="flex justify-center">
-              <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
-              <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button>
-            </div>
+
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
             <img className="object-cover object-center rounded" alt="hero" src="https://thumbs.dreamstime.com/b/plum-blossom-branch-isolated-white-background-traditional-chinese-elements-icon-symbol-logo-web-chinese-new-year-design-174847889.jpg" />
@@ -105,12 +102,9 @@ export default function Example() {
             <div className="flex w-full mb-20 flex-wrap">
               <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">Japan Wonderfull</h1>
               <p className="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base text-justify">
-                Donec nulla nulla, commodo mollis nisl non, lobortis molestie velit. Etiam sed facilisis nisl. Proin vitae placerat dolor, in pellentesque mauris.
-                Nam varius id est in elementum. Nam ornare accumsan tellus a sollicitudin. Integer euismod ex in pellentesque ornare.
-                Suspendisse aliquet, eros id maximus convallis, dui ante rhoncus lacus, et rutrum lectus metus vitae lacus.
-                Vivamus vel mattis ipsum, in semper sem. Cras et ornare nisl, vel porttitor urna. Donec eros nisl, feugiat non purus ac,
-                tincidunt egestas purus. Praesent mattis, orci non ornare luctus, est erat tristique ligula, vitae consectetur magna nibh ut est.
-                Donec ut lacinia dolor, ac tempus lectus. Integer pharetra euismod dui placerat posuere.
+                The change of the seasons and the floral displays they bring are celebrated across Japan.
+                From the keenly anticipated cherry and plum blossoms to the cheery sunflower, flowers hold a special place in Japanese society.
+                There is even an ancient language of flowers known as hanakotoba, by which many blooms are ascribed symbolic meaning.
               </p>
             </div>
             <div className="flex flex-wrap md:-m-2 -m-1">
@@ -140,6 +134,69 @@ export default function Example() {
                 <div className="md:p-2 p-1 w-1/2">
                   <img alt="gallery" className="w-full object-cover h-full object-center block"
                     src="https://images.unsplash.com/photo-1555050551-82f8d95a0614?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div>
+        <section className="text-gray-600 body-font">
+          <div className="container px-5 py-24 mx-auto">
+            <div className="flex flex-col text-center w-full mb-20">
+              <h2 className="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">How To</h2>
+              <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900">Contact For Create</h1>
+            </div>
+            <div className="flex flex-wrap -m-4">
+              <div className="p-4 md:w-1/3">
+                <div className="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
+                  <div className="flex items-center mb-3">
+                    <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
+                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
+                        <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                      </svg>
+                    </div>
+                    <h2 className="text-gray-900 text-lg title-font font-medium">Contact Me</h2>
+                  </div>
+                  <div className="flex-grow">
+                    <p className="leading-relaxed text-base">Contact Me using WhatsApp or Mail at Contact Us.</p>
+
+                  </div>
+                </div>
+              </div>
+              <div className="p-4 md:w-1/3">
+                <div className="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
+                  <div className="flex items-center mb-3">
+                    <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
+                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
+                        <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+
+                      </svg>
+                    </div>
+                    <h2 className="text-gray-900 text-lg title-font font-medium">Concept The Site</h2>
+                  </div>
+                  <div className="flex-grow">
+                    <p className="leading-relaxed text-base">Concept the Interface Site.</p>
+
+                  </div>
+                </div>
+              </div>
+              <div className="p-4 md:w-1/3">
+                <div className="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
+                  <div className="flex items-center mb-3">
+                    <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
+                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
+                        <circle cx="6" cy="6" r="3"></circle>
+                        <circle cx="6" cy="18" r="3"></circle>
+                        <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
+                      </svg>
+                    </div>
+                    <h2 className="text-gray-900 text-lg title-font font-medium">Deal</h2>
+                  </div>
+                  <div className="flex-grow">
+                    <p className="leading-relaxed text-base">Deal The Concept, progress and finishing.</p>
+
+                  </div>
                 </div>
               </div>
             </div>
